@@ -1,7 +1,7 @@
 import java.util.*;
 
 class Person{
-Scanner sc       = new Scanner(System.in);
+Scanner sc = new Scanner(System.in);
 
 String name,address; 
 double contact;
@@ -9,9 +9,9 @@ int emp_id;
 void get(){
 
 System.out.println("Name:");
-name     = sc.nextLine();
+name = sc.nextLine();
 System.out.println("Address:");
-address  = sc.nextLine();
+address = sc.nextLine();
 System.out.println("Conatct:");
 contact = sc.nextDouble();
 }
